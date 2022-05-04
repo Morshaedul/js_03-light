@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light</title>
+</head>
+<body>
+    <h1> Java Script by Light on/off </h1>
+    <button type="button" onclick="lighton()">On</button>
+    <img id="light" src="images/pic_bulboff.gif" alt="">
+    <button type="button" onclick="lightoff()">Off</button>
+
+
+
+
+    <script>
+        function lightoff(){
+            document.getElementById("light").src='images/pic_bulboff.gif';
+
+        }
+        function lighton(){
+            document.getElementById("light").src='images/pic_bulbon.gif';
+
+        }
+
+
+
+    </script>
+
+    
+</body>
+</html>
